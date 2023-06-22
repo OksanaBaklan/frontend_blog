@@ -60,7 +60,7 @@ function Gallery(props) {
       {images.map((img) => (
         <div key={img} style={{display:'inline-grid',  justifyContent: "center",
         alignItems: "center" }}>
-            <img src={`${process.env.REACT_APP_BE_URL}/images/${img}`} width={200} />
+            <img src={`${process.env.REACT_APP_BE_URL}/${img}`} width={200} />
         </div>
       ))}
 
